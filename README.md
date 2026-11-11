@@ -12,7 +12,6 @@ The data comes from UNESCO's HerAtlas, which tracks whether countries' constitut
 
 - Raw file has 3,582 rows and 34 columns
 - After cleaning, 3,236 records remain, covering 196 countries, 12 questions, 5 regions and the years 2019 to 2025
-- Source: [add the link to the HerAtlas page you downloaded it from]
 
 ## What I did
 
@@ -41,14 +40,6 @@ All three models beat the baseline by a wide margin, but they are close to each 
 - Results are associations, not causes.
 - The same country appears in many rows, so records are not fully independent.
 - The models only know the question, region and year, so a lot stays unexplained.
-
-## How to run it
-
-Keep `edp002.csv` in the same folder as the notebook, then run:
-
-```
-pip install pandas numpy matplotlib seaborn scipy scikit-learn jupyter
-jupyter notebook UNESCO_education_rights_analysis.ipynb
 ```
 
 ## Files
