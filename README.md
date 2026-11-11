@@ -1,4 +1,4 @@
-What shapes national compliance with girls’ education rights?
+**What shapes national compliance with girls’ education rights?**
 A machine learning analysis of UNESCO’s HerAtlas legal dataset, built to understand which factors line up with stronger or weaker legal protection for girls’ education.
 
 The question:
